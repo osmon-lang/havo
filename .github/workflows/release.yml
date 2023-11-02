@@ -35,6 +35,6 @@ jobs:
         files: |
           build/libhavo.so
           include/libhavo.h
-          library.zip
+          build/library.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
