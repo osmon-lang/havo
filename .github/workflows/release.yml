@@ -2,11 +2,8 @@ name: Build and Release
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -29,9 +26,9 @@ jobs:
       run: zip -r build/library.zip library
 
     - name: Create Release
-      if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
       uses: softprops/action-gh-release@v1
       with:
+        # Include the built shared library and the header file in the release
         files: |
           build/libhavo.so
           include/libhavo.h
