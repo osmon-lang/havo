@@ -25,7 +25,7 @@ pub extern func ceil(x: f64) f64;
 pub extern func pow(x: f64,k: f64) f64; 
 
 // stdio.h
-link "osmonstd"
+link "havo"
 constexpr SEEK_SET = 0
 constexpr SEEK_CUR = 1
 constexpr SEEK_END = 2
