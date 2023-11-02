@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.26)
 PROJECT(
         havo
-        VERSION 0.1
+        VERSION 0.0.1
         LANGUAGES C
         DESCRIPTION "Standard Library of Osmon"
 )
