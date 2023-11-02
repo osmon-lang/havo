@@ -28,7 +28,6 @@ jobs:
     - name: Create Release
       uses: softprops/action-gh-release@v1
       with:
-        # Include the built shared library and the header file in the release
         files: |
           build/libhavo.so
           include/libhavo.h
