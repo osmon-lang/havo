@@ -1,5 +1,5 @@
-import "libc.osmx"
-import "atomic.osmx"
+import "libc.osm"
+import "atomic.osm"
 
 pub func alloc(size: i32) *u8 {
 	return malloc(size as usize);

@@ -1,4 +1,4 @@
-import "libc.osmx"
+import "libc.osm"
 
 alias HashFunc = (*u8) -> u32
 

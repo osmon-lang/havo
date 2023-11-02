@@ -1,4 +1,4 @@
-import "libc.osmx"
+import "libc.osm"
 
 pub var __state0: u64 = 1 as u64;
 pub var __state1: u64 = 2 as u64;

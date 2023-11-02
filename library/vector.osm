@@ -1,4 +1,4 @@
-import "libc.osmx"
+import "libc.osm"
 
 constexpr VECTOR_MIN_CAP = 2 as usize
 constexpr VECTOR_GROWTH_FACTOR = 2 as usize

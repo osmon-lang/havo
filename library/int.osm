@@ -1,7 +1,7 @@
 /// This file contains methods for integer primitives
 
-import "libc.osmx"
-import "alloc.osmx"
+import "libc.osm"
+import "alloc.osm"
 
 pub func (v: *i32) power(val: i32) i32 {
 	var f = *v;

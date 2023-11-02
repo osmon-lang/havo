@@ -1,4 +1,4 @@
-import "libc.osmx"
+import "libc.osm"
 
 
 pub func print(c: char) void {
