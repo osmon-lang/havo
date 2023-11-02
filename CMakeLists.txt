@@ -1,0 +1,20 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.26)
+PROJECT(
+        havo
+        VERSION 0.1
+        LANGUAGES C
+        DESCRIPTION "Standard Library of Osmon"
+)
+
+INCLUDE(GNUInstallDirs)
+
+IF(NOT CMAKE_BUILD_TYPE)
+    SET(CMAKE_BUILD_TYPE Debug)
+ENDIF()
+
+SET(CMAKE_C_STANDARD 23)
+SET(BUILD_SHARED_LIBS ON)
+
+ADD_LIBRARY(havo SHARED
+        source/library.c
+)
